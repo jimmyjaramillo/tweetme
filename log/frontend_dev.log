@@ -1,0 +1,69 @@
+Jan 23 18:50:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jan 23 18:50:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jan 23 18:50:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Jan 23 18:50:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Jan 23 18:50:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 23 18:50:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:50:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 23 18:50:51 symfony [info] {sfBasicSecurityFilter} Action "home/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Jan 23 18:50:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:50:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 23 18:50:52 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Jan 23 18:50:52 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/signinSuccess.php"
+Jan 23 18:50:52 symfony [info] {sfPartialView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/_signin_form.php"
+Jan 23 18:50:52 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:50:52 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:50:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Jan 23 18:50:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 23 18:50:52 symfony [info] {sfWebDebugLogger} Configuration 437.40 ms (12)
+Jan 23 18:50:52 symfony [info] {sfWebDebugLogger} Factories 130.70 ms (1)
+Jan 23 18:50:52 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 11.73 ms (1)
+Jan 23 18:50:52 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 54.35 ms (1)
+Jan 23 18:50:52 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 8.29 ms (1)
+Jan 23 18:50:52 symfony [info] {sfWebResponse} Send content (36291 o)
+Jan 23 18:53:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jan 23 18:53:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jan 23 18:53:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Jan 23 18:53:16 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Jan 23 18:53:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 23 18:53:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:53:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 23 18:53:16 symfony [info] {sfBasicSecurityFilter} Action "home/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Jan 23 18:53:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:53:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 23 18:53:16 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Jan 23 18:53:16 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/signinSuccess.php"
+Jan 23 18:53:16 symfony [info] {sfPartialView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/_signin_form.php"
+Jan 23 18:53:16 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:53:16 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:53:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Jan 23 18:53:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 23 18:53:16 symfony [info] {sfWebDebugLogger} Configuration 22.95 ms (12)
+Jan 23 18:53:16 symfony [info] {sfWebDebugLogger} Factories 46.21 ms (1)
+Jan 23 18:53:16 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 10.57 ms (1)
+Jan 23 18:53:16 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 22.57 ms (1)
+Jan 23 18:53:16 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 4.30 ms (1)
+Jan 23 18:53:16 symfony [info] {sfWebResponse} Send content (36339 o)
+Jan 23 18:53:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jan 23 18:53:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jan 23 18:53:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Jan 23 18:53:59 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Jan 23 18:53:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 23 18:53:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:53:59 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 23 18:53:59 symfony [info] {sfBasicSecurityFilter} Action "home/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Jan 23 18:53:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 23 18:53:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 23 18:53:59 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Jan 23 18:53:59 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/signinSuccess.php"
+Jan 23 18:53:59 symfony [info] {sfPartialView} Render "C:\wamp\www\tweetme\apps\frontend\modules/sfGuardAuth/templates/_signin_form.php"
+Jan 23 18:53:59 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:53:59 symfony [info] {sfPHPView} Render "C:\wamp\www\tweetme\apps\frontend\templates/layout.php"
+Jan 23 18:53:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Jan 23 18:53:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 23 18:53:59 symfony [info] {sfWebDebugLogger} Configuration 23.59 ms (12)
+Jan 23 18:53:59 symfony [info] {sfWebDebugLogger} Factories 46.51 ms (1)
+Jan 23 18:53:59 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 10.79 ms (1)
+Jan 23 18:53:59 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 24.44 ms (1)
+Jan 23 18:53:59 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 4.81 ms (1)
+Jan 23 18:53:59 symfony [info] {sfWebResponse} Send content (36339 o)
