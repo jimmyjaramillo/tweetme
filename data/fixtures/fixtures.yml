@@ -15,3 +15,43 @@
 #     password: changeme
 #     name:     Kris Wallsmith
 #     email:    kris.wallsmith@symfony-project.com
+
+sfGuardUser:
+    User_admin:
+        dni:            111111111
+        first_name:     Franklin
+        last_name:      Michay
+        email_address:  franklinmichay@gmail.com
+        username:       admin
+        password:       admin
+        is_super_admin: true
+        Groups:         [Group_admin]
+  
+    User_comisionado:
+        dni:            2222222222
+        first_name:     cliente
+        last_name:      cliente
+        email_address:  xxxxxxxx@gmail.com
+        username:       cliente
+        password:       cliente
+        is_super_admin: false
+        Groups:         [Group_client]
+      
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+  Group_client:
+    name:           client
+    description:    Comisionado client
+    Permissions:    [Permission_client]  
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+  Permission_client:
+    name:           client
+    description:    Client permission
