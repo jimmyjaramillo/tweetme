@@ -1,0 +1,11 @@
+Persona:
+    connection: doctrine
+    tableName: persona
+    columns:    
+        dni: {   type: integer(10),   notnull: true, unique: true}
+        first_name: { type: string(255)}
+        last_name: { type: string(255)}
+        email_address: { type: string(255),  notnull: true,  unique: true }
+        telefono: { type: integer(10),   notnull: true}
+        direccion: { type: string(35),     notnull: true }
+        genero: { type: integer(10),   notnull: true }
